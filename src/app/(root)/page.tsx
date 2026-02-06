@@ -15,7 +15,7 @@ export default function Home() {
             <section className="px-6 md:px-12 2xl:px-16 pt-12 pb-0">
                 <RevealOnScroll className="w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     {/* Left: Image with rounded top */}
-                    <div className="flex px-11 pt-2 pb-0 justify-start max-h-[1500px]">
+                    <div className="flex px-12 pt-2 pb-0 justify-start max-h-[1500px]">
                         <div className="w-full h-full max-w-[716px]">
                             <div className="bg-gray-300 rounded-t-full aspect-2/3 w-full h-full relative">
                                 <Image
@@ -30,16 +30,11 @@ export default function Home() {
                     </div>
 
                     {/* Right: Text content */}
-                    <div className="flex flex-col gap-6 items-center text-center justify-center 2xl:right-[110px] 2xl:bottom-[85px] relative">
+                    <div className="flex flex-col gap-6 items-center text-center justify-center hero-offset-monitor relative">
                         <h1
-                            className="font-medium leading-tight text-5xl md:text-6xl xl:text-7xl 2xl:text-[100px]"
+                            className="hero-title-monitor font-medium leading-tight text-5xl md:text-6xl xl:text-7xl 2xl:text-[80px]"
                         >
-                            Live your life
-                        </h1>
-                        <h1
-                            className="font-medium leading-tight 2xl:-mt-11 2xl:left-[10px] relative text-5xl md:text-6xl xl:text-7xl 2xl:text-[100px]"
-                        >
-                            in full bloom
+                            Live your life <br />in full bloom
                         </h1>
 
                         <p className="text-xl font-medium">
@@ -54,6 +49,7 @@ export default function Home() {
                     </div>
                 </RevealOnScroll>
             </section>
+
 
             {/* Second Section: Live a fulfilling life */}
             <RevealOnScroll delay={100}>

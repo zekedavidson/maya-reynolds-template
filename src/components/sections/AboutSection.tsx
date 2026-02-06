@@ -7,7 +7,7 @@ const AboutSection = () => {
         <section className='w-full bg-[#E5E0DA] py-16 md:py-24 pb-32 md:pb-50 pl-8 md:pl-16 lg:pl-20'>
             <div className='grid grid-cols-1 md:grid-cols-[4fr_3fr] gap-12 items-center'>
                 {/* Left: Text Content */}
-                <div className='flex flex-col gap-6 px-6 md:px-30 order-2 md:order-1'>
+                <div className='flex flex-col gap-6 px-6 md:px-20 2xl:px-24 3xl:px-30 order-2 md:order-1'>
                     <h2 className='text-4xl md:text-5xl lg:text-6xl 2xl:text-6xl font-medium text-[#223614]'>
                         Hi, I'm Lilac.
                     </h2>
@@ -29,7 +29,7 @@ const AboutSection = () => {
                 {/* Right: Overlapping Circular Images */}
                 <div className='relative h-[500px] md:h-[600px] lg:h-[700px] w-full order-1'>
                     {/* Larger image - Top Left */}
-                    <div className='absolute top-0 left-0 w-[280px] h-[420px] md:w-[380px] md:h-[580px] lg:w-[520px] lg:h-[780px] rounded-t-full overflow-hidden z-10'>
+                    <div className='absolute top-0 left-0 w-[280px] h-[420px] md:w-[380px] md:h-[580px] lg:w-[420px] lg:h-[630px] 2xl:w-[450px] 2xl:h-[675px] 3xl:w-[520px] 3xl:h-[780px] rounded-t-full overflow-hidden z-10'>
                         <Image
                             src="/about-section1.jpg"
                             alt="Lilac bouquet"
@@ -39,7 +39,7 @@ const AboutSection = () => {
                     </div>
 
                     {/* Smaller circle - Bottom Right */}
-                    <div className='absolute bottom-0 right-0 md:top-130 lg:left-85 w-[220px] h-[220px] md:w-[260px] md:h-[260px] lg:w-[360px] lg:h-[360px] rounded-full overflow-hidden z-20'>
+                    <div className='absolute bottom-0 right-0 md:top-[55%] lg:top-[50%] lg:left-[45%] 2xl:left-[40%] 3xl:top-130 3xl:left-85 w-[220px] h-[220px] md:w-[260px] md:h-[260px] lg:w-[300px] lg:h-[300px] 2xl:w-[320px] 2xl:h-[320px] 3xl:w-[360px] 3xl:h-[360px] rounded-full overflow-hidden z-20'>
                         <Image
                             src="/about-section2.jpeg"
                             alt="White hydrangea"
@@ -50,6 +50,7 @@ const AboutSection = () => {
                 </div>
             </div>
         </section>
+
     )
 }
 

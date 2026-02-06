@@ -6,7 +6,7 @@ const SupportSection = () => {
     return (
         <section className='w-full grid grid-cols-1 md:grid-cols-2'>
             {/* Left Image */}
-            <div className='relative h-[400px] md:h-auto md:min-h-full lg:min-h-screen 2xl:min-h-[1080px] w-full order-1'>
+            <div className='relative h-[400px] md:h-auto md:min-h-full lg:min-h-screen 2xl:min-h-[850px] 3xl:min-h-[1080px] w-full order-1'>
                 <div className='absolute inset-0 h-full'>
                     <Image
                         src="/support-section.jpg"
@@ -19,13 +19,14 @@ const SupportSection = () => {
 
             {/*Right: Text Content */}
             <div className='bg-[#C2BFCB] flex flex-col justify-between order-2 w-full'>
-                <div className='flex-1 flex flex-col justify-center px-8 md:px-12 lg:px-8 xl:px-12 2xl:px-20 py-16 md:py-24'>
+                <div className='flex-1 flex flex-col justify-center px-8 md:px-12 lg:px-8 xl:px-12 2xl:px-16 3xl:px-20 py-16 md:py-24'>
                     <div className='max-w-full'>
-                        <h2 className='text-3xl md:text-5xl lg:text-4xl xl:text-5xl 2xl:text-[66px] font-medium mb-8 text-[#223614]'>
-                            You don’t have to do this all alone.
+                        <h2 className='text-3xl md:text-5xl lg:text-4xl xl:text-5xl 2xl:text-[54px] 3xl:text-[66px] font-medium mb-8 text-[#223614]'>
+                            You don't have to do this all alone.
                         </h2>
 
-                        <div className='space-y-6 text-[20px] lg:text-base xl:text-lg 2xl:text-[20px] text-foreground font-normal'>
+                        <div className='space-y-6 text-[20px] lg:text-base xl:text-lg 2xl:text-[18px] 3xl:text-[20px] text-foreground font-normal'>
+
                             <p>
                                 If you are facing any of these, there’s hope:
                             </p>

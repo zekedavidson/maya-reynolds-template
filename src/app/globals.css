@@ -10,6 +10,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-gopher);
   --font-mono: var(--font-gopher);
+  --breakpoint-3xl: 1900px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,4 +26,18 @@ body {
   font-family: var(--font-gopher), sans-serif;
   font-size: clamp(14px, 1vw + 12px, 16px);
   line-height: 1.6;
+}
+
+/* Monitor-only styles (3xl: 1900px+) */
+@media (min-width: 1900px) {
+  .hero-title-monitor {
+    font-size: 100px !important;
+  }
+
+  .hero-offset-monitor {
+    right: 110px;
+    bottom: 85px;
+    margin-top: 21.25rem;
+    /* mt-85 = 340px */
+  }
 }

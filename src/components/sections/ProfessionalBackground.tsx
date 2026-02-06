@@ -31,9 +31,10 @@ const ProfessionalBackground = () => {
     return (
         <section className='w-full bg-[#E5E0DA] py-16 md:py-30'>
             <div className='max-w-[1050px] mx-auto px-6 md:px-15'>
-                <h2 className='text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-[50px] font-medium mb-12 text-[#223614] text-center'>
+                <h2 className='text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-[42px] 3xl:text-[50px] font-medium mb-12 text-[#223614] text-center'>
                     My Professional Background
                 </h2>
+
 
                 <div className='flex flex-col'>
                     {menuData.map((menu, index) => (
