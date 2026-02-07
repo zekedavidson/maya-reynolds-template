@@ -35,7 +35,7 @@ const FAQSection = () => {
     }
 
     return (
-        <section className='border-b-3 w-full bg-background py-16 md:py-24'>
+        <section className='w-full bg-background py-16 md:py-24'>
             <div className='grid grid-cols-1 md:grid-cols-[1.5fr_2fr] gap-12 md:gap-40 items-start max-w-[1500px] mx-auto pl-6 md:pl-12 lg:pl-16 2xl:pl-20 pr-4 lg:pr-8'>
                 {/* Left: Flower Image */}
                 <div className='relative h-[400px] md:h-[500px] lg:h-[700px] 2xl:h-[780px] order-1'>

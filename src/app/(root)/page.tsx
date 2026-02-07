@@ -12,7 +12,7 @@ export default function Home() {
     return (
         <main className="min-h-screen">
             {/* Hero Section */}
-            <section className="border-b-3 px-6 md:px-12 2xl:px-16 pt-12 pb-0">
+            <section className="px-6 md:px-12 2xl:px-16 pt-12 pb-0">
                 <RevealOnScroll className="w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     {/* Left: Image with rounded top */}
                     <div className="flex px-12 pt-2 pb-0 justify-start max-h-[1500px]">

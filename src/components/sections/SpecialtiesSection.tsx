@@ -21,7 +21,7 @@ const specialties = [
 
 const SpecialtiesSection = () => {
     return (
-        <section className="w-full py-25 px-6 md:px-16 lg:px-8 xl:px-12 2xl:px-12 3xl:px-16 bg-background border-b-3">
+        <section className="w-full py-25 px-6 md:px-16 lg:px-8 xl:px-12 2xl:px-12 3xl:px-16 bg-background">
             <h2 className="text-5xl md:text-5xl lg:text-4xl xl:text-5xl 2xl:text-[52px] 3xl:text-[64px] font-medium text-center text-foreground mb-16 mt-15">
                 My Specialties
             </h2>

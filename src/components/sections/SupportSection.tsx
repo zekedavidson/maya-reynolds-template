@@ -4,7 +4,7 @@ import React from 'react'
 
 const SupportSection = () => {
     return (
-        <section className='w-full grid grid-cols-1 md:grid-cols-2 border-b-3 border-foreground'>
+        <section className='w-full grid grid-cols-1 md:grid-cols-2'>
             {/* Left Image */}
             <div className='relative h-[400px] md:h-auto md:min-h-full lg:min-h-screen 2xl:min-h-[850px] 3xl:min-h-[1080px] w-full order-1'>
                 <div className='absolute inset-0 h-full'>

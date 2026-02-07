@@ -4,7 +4,7 @@ import React from 'react'
 
 const AboutSection = () => {
     return (
-        <section className='border-b-3 border-foreground w-full bg-[#e4cebd] py-16 md:py-24 pb-32 md:pb-60 pl-8 md:pl-16 lg:pl-20'>
+        <section className='w-full bg-[#e4cebd] py-16 md:py-24 pb-32 md:pb-60 pl-8 md:pl-16 lg:pl-20'>
             <div className='grid grid-cols-1 md:grid-cols-[6fr_5fr] gap-12 items-center'>
                 {/* Left: Text Content */}
                 <div className='flex flex-col gap-6 px-6 md:px-14 2xl:px-18 3xl:px-30 order-2 md:order-1'>

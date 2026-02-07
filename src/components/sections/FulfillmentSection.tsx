@@ -4,7 +4,7 @@ import React from 'react'
 
 const FulfillmentSection = () => {
     return (
-        <section className="w-full grid grid-cols-1 md:grid-cols-2 border-b-3">
+        <section className="w-full grid grid-cols-1 md:grid-cols-2">
             {/* Left: Text Content */}
             {/* Left: Text Content */}
             <div className="bg-[#36575C] min-h-[400px] md:min-h-[600px] lg:min-h-[500px] 2xl:h-[770px] 3xl:h-[867px] flex flex-col justify-between order-2 md:order-1">
