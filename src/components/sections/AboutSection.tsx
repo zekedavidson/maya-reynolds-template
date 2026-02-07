@@ -8,11 +8,11 @@ const AboutSection = () => {
             <div className='grid grid-cols-1 md:grid-cols-[6fr_5fr] gap-12 items-center'>
                 {/* Left: Text Content */}
                 <div className='flex flex-col gap-6 px-6 md:px-14 2xl:px-18 3xl:px-30 order-2 md:order-1'>
-                    <h2 className='text-4xl md:text-5xl lg:text-6xl 2xl:text-6xl font-medium text-foreground'>
+                    <h2 className='text-4xl md:text-5xl lg:text-6xl 2xl:text-6xl font-semibold text-foreground'>
                         Hi, I'm Dr. Maya Reynolds.
                     </h2>
 
-                    <p className='text-lg md:text-xl text-foreground/80 leading-relaxed font-[450]'>
+                    <p className='text-lg md:text-xl text-foreground/80 leading-relaxed font-medium'>
                         I’m a licensed clinical psychologist based in Santa Monica, California, offering therapy for adults who feel overwhelmed by anxiety, stress, or the lingering effects of past experiences.
                         <br /><br />
                         Trauma work is an important part of my practice. I work with adults who have experienced single-incident trauma as well as more complex, long-standing patterns. My approach is paced carefully, emphasizing safety and stabilization.

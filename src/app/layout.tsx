@@ -1,29 +1,13 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Quicksand } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 
-const gopher = localFont({
-  src: [
-    {
-      path: '../../public/fonts/Gopher-Regular.ttf',
-      weight: '400',
-      style: 'normal',
-    },
-    {
-      path: '../../public/fonts/Gopher-Medium.ttf',
-      weight: '500',
-      style: 'normal',
-    },
-    {
-      path: '../../public/fonts/Gopher-Bold.ttf',
-      weight: '700',
-      style: 'normal',
-    },
-  ],
-  variable: '--font-gopher',
+const quicksand = Quicksand({
+  subsets: ["latin"],
+  variable: "--font-quicksand",
 });
 
 export const metadata: Metadata = {
@@ -38,9 +22,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${quicksand.variable}`}>
       <body
-        className={`${gopher.variable} antialiased`}
+        className={`antialiased`}
       >
         <Header />
         {children}

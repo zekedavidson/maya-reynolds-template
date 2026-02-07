@@ -35,7 +35,7 @@ const ProfessionalBackground = () => {
     return (
         <section className='w-full bg-[#e4cebd] py-16 md:py-30'>
             <div className='max-w-[1050px] mx-auto px-6 md:px-15'>
-                <h2 className='text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-[42px] 3xl:text-[50px] font-medium mb-12 text-foreground text-center'>
+                <h2 className='text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-[42px] 3xl:text-[50px] font-semibold mb-12 text-foreground text-center'>
                     Evidence-Based Methods
                 </h2>
 
@@ -47,11 +47,11 @@ const ProfessionalBackground = () => {
                                 onClick={() => toggleMenu(index)}
                                 className='w-full py-3 flex justify-between items-center text-left hover:opacity-70 transition-opacity'
                             >
-                                <span className='text-xl md:text-2xl lg:text-[28px] font-normal text-foreground'>
+                                <span className='text-xl md:text-2xl lg:text-[28px] font-medium text-foreground'>
                                     {menu.question}
                                 </span>
 
-                                <span className='text-2xl md:text-3xl lg:text-4xl font-normal text-foreground shrink-0'>
+                                <span className='text-2xl md:text-3xl lg:text-4xl font-medium text-foreground shrink-0'>
                                     {openIndex === index ? '−' : '+'}
                                 </span>
 

@@ -10,11 +10,11 @@ const FulfillmentSection = () => {
             <div className="bg-[#36575C] min-h-[400px] md:min-h-[600px] lg:min-h-[500px] 2xl:h-[770px] 3xl:h-[867px] flex flex-col justify-between order-2 md:order-1">
                 <div className="flex-1 flex flex-col justify-center px-8 md:px-12 lg:px-8 xl:px-12 2xl:px-16 3xl:px-20 py-12 md:py-0">
                     <div className="max-w-full">
-                        <h2 className="text-3xl md:text-5xl lg:text-4xl xl:text-5xl 2xl:text-[54px] 3xl:text-[66px] font-medium mb-8 text-[#E8D6C8]">
+                        <h2 className="text-3xl md:text-5xl lg:text-4xl xl:text-5xl 2xl:text-[54px] 3xl:text-[66px] font-semibold mb-8 text-[#E8D6C8]">
                             A Warm, Collaborative Approach
                         </h2>
 
-                        <div className="text-[#eee1d7] space-y-6 text-[20px] font-[420]">
+                        <div className="text-[#eee1d7] space-y-6 text-[20px] font-medium">
                             <p>
                                 I take a warm, collaborative approach, integrating methods like CBT, EMDR, and mindfulness to support both your emotional and physiological well-being.
                             </p>

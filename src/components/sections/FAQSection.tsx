@@ -51,7 +51,7 @@ const FAQSection = () => {
 
                 {/* Right: FAQs */}
                 <div className='flex flex-col gap-7 order-2 '>
-                    <h2 className='text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl font-medium text-foreground mb-10 mt-32 2xl:mt-40 3xl:mt-50'>
+                    <h2 className='text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl font-semibold text-foreground mb-10 mt-32 2xl:mt-40 3xl:mt-50'>
                         FAQs
                     </h2>
 
@@ -63,11 +63,11 @@ const FAQSection = () => {
                                     onClick={() => toggleFAQ(index)}
                                     className='w-full py-4 flex gap-4 items-center text-left hover:opacity-70 transition-opacity'
                                 >
-                                    <span className='text-2xl md:text-5xl font-normal text-foreground shrink-0'>
+                                    <span className='text-2xl md:text-5xl font-medium text-foreground shrink-0'>
                                         {openIndex === index ? '−' : '+'}
                                     </span>
 
-                                    <span className='text-xl md:text-2xl lg:text-4xl font-medium text-foreground'>
+                                    <span className='text-xl md:text-2xl lg:text-4xl font-semibold text-foreground'>
                                         {faq.question}
                                     </span>
 

@@ -21,11 +21,11 @@ const SupportSection = () => {
             <div className='bg-[#D7E4EE] flex flex-col justify-between order-2 w-full'>
                 <div className='flex-1 flex flex-col justify-center px-8 md:px-12 lg:px-8 xl:px-12 2xl:px-16 3xl:px-20 py-16 md:py-24'>
                     <div className='max-w-full'>
-                        <h2 className='text-3xl md:text-5xl lg:text-4xl xl:text-5xl 2xl:text-[54px] 3xl:text-[66px] font-medium mb-8 text-foreground'>
+                        <h2 className='text-3xl md:text-5xl lg:text-4xl xl:text-5xl 2xl:text-[54px] 3xl:text-[66px] font-semibold mb-8 text-foreground'>
                             You don't have to do this all alone.
                         </h2>
 
-                        <div className='text-foreground/80 space-y-6 text-[20px] font-[420]'>
+                        <div className='text-foreground/80 space-y-6 text-[20px] font-medium'>
                             <p>
                                 If you are facing any of these, there’s hope:
                             </p>

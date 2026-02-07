@@ -22,7 +22,7 @@ const specialties = [
 const SpecialtiesSection = () => {
     return (
         <section className="w-full py-25 px-6 md:px-16 lg:px-8 xl:px-12 2xl:px-12 3xl:px-16 bg-background">
-            <h2 className="text-5xl md:text-5xl lg:text-4xl xl:text-5xl 2xl:text-[52px] 3xl:text-[64px] font-medium text-center text-foreground mb-16 mt-15">
+            <h2 className="text-5xl md:text-5xl lg:text-4xl xl:text-5xl 2xl:text-[52px] 3xl:text-[64px] font-semibold text-center text-foreground mb-16 mt-15">
                 My Specialties
             </h2>
 
@@ -30,10 +30,10 @@ const SpecialtiesSection = () => {
                 {specialties.map((item, index) => (
                     <div key={index} className="border-2 border-foreground p-3 md:p-4 2xl:p-5 3xl:p-6 flex flex-col h-full bg-[#e4cebd]">
 
-                        <h3 className="text-xl font-medium text-foreground mb-10">
+                        <h3 className="text-xl font-semibold text-foreground mb-10">
                             {item.title}
                         </h3>
-                        <p className="text-xs md:text-[14px] text-foreground/80 mb-8 leading-relaxed font-medium">
+                        <p className="text-xs md:text-[14px] text-foreground/80 mb-8 leading-relaxed font-semibold">
                             {item.description}
                         </p>
 
