@@ -4,23 +4,22 @@ import React from 'react'
 
 const FulfillmentSection = () => {
     return (
-        <section className="w-full grid grid-cols-1 md:grid-cols-2">
+        <section className="w-full grid grid-cols-1 md:grid-cols-2 border-b-3">
             {/* Left: Text Content */}
             {/* Left: Text Content */}
-            <div className="bg-[#E5E0DA] min-h-[400px] md:min-h-[600px] lg:min-h-[500px] 2xl:h-[770px] 3xl:h-[867px] flex flex-col justify-between order-2 md:order-1">
-                <div className="flex-1 flex flex-col justify-center px-8 md:px-12 lg:px-8 xl:px-12 2xl:px-16 3xl:px-20 ">
+            <div className="bg-[#36575C] min-h-[400px] md:min-h-[600px] lg:min-h-[500px] 2xl:h-[770px] 3xl:h-[867px] flex flex-col justify-between order-2 md:order-1">
+                <div className="flex-1 flex flex-col justify-center px-8 md:px-12 lg:px-8 xl:px-12 2xl:px-16 3xl:px-20 py-12 md:py-0">
                     <div className="max-w-full">
-                        <h2 className="text-3xl md:text-5xl lg:text-4xl xl:text-5xl 2xl:text-[54px] 3xl:text-[66px] font-medium mb-8 text-[#223614]">
-                            Live a fulfilling life.
-
+                        <h2 className="text-3xl md:text-5xl lg:text-4xl xl:text-5xl 2xl:text-[54px] 3xl:text-[66px] font-medium mb-8 text-[#E8D6C8]">
+                            A Warm, Collaborative Approach
                         </h2>
 
-                        <div className="space-y-6 text-[20px] text-foreground font-[420]">
+                        <div className="text-[#eee1d7] space-y-6 text-[20px] font-[420]">
                             <p>
-                                Life can be challenging—especially when you're trying to balance your personal and professional life.
+                                I take a warm, collaborative approach, integrating methods like CBT, EMDR, and mindfulness to support both your emotional and physiological well-being.
                             </p>
                             <p>
-                                It's easy to feel like you're alone in facing these challenges, but I want you to know that I'm here to help.
+                                My goal is to help you develop insight, resilience, and a stronger relationship with yourself—not just simple symptom relief.
                             </p>
                         </div>
                     </div>
@@ -28,7 +27,7 @@ const FulfillmentSection = () => {
 
                 <Link
                     href="/contact"
-                    className="w-full border-t-2 border-[#223614]/70 py-8 text-center text-xs font-semibold tracking-wider text-[#223614] hover:bg-[#223614] hover:text-[#EAE6DF] transition-colors duration-700 uppercase block"
+                    className="w-full border-t-2 border-[#eee1d7]/70 py-8 text-center text-xs font-semibold tracking-wider text-[#eee1d7] hover:bg-[#eee1d7] hover:text-[#36575C] transition-colors duration-700 uppercase block"
                 >
                     <p className='text-[14px] font-medium'>Get in touch →</p>
                 </Link>
@@ -38,7 +37,7 @@ const FulfillmentSection = () => {
             <div className="relative h-[400px] md:h-auto md:min-h-full w-full order-1 md:order-2">
                 <div className="absolute inset-0 bg-gray-200 h-full">
                     <Image
-                        src="/home-page-section2.jpg"
+                        src="/section-2.jpg"
                         alt="Desk with coffee and journal"
                         fill
                         className="object-cover"

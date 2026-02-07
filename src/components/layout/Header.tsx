@@ -62,7 +62,7 @@ const Header = () => {
 
                     {/* Logo/Brand - On mobile goes to RIGHT, on desktop stays LEFT */}
                     <Link href="/" className="text-foreground transition-opacity font-medium md:order-first" style={{ fontSize: 'clamp(18px, 2vw + 12px, 41px)' }}>
-                        Lilac Template
+                        Dr. Maya Reynolds
                     </Link>
 
                     {/* Desktop Navigation Links - Hidden on mobile (< 799px) */}
@@ -80,6 +80,13 @@ const Header = () => {
                             style={{ fontSize: 'clamp(14px, 1.5vw + 8px, 21px)' }}
                         >
                             Contact
+                        </Link>
+                        <Link
+                            href="/our-office"
+                            className="text-foreground hover:opacity-70 transition-opacity"
+                            style={{ fontSize: 'clamp(14px, 1.5vw + 8px, 21px)' }}
+                        >
+                            Our Office
                         </Link>
                     </div>
                 </nav>

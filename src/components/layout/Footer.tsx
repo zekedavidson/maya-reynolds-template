@@ -3,19 +3,18 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer className='w-full bg-[#FBF6F1] text-[#223614]'>
+        <footer className='w-full bg-background text-foreground'>
             {/* Main Footer Content */}
             <div className='w-full px-6 md:px-16 py-16 md:py-17'>
                 <div className='flex flex-col md:flex-row justify-between items-start gap-12'>
                     {/* Left Column: Branding & Contact */}
                     <div className='flex flex-col space-y-6'>
-                        <h3 className='text-4xl md:text-[50px] font-medium mb-10'>
-                            Lilac Template
-                        </h3>
-                        <div className='space-y-1 text-base text-[22px]'>
-                            <p>123 Example Road</p>
-                            <p>Minneapolis, MN</p>
-                        </div>
+                        <h2 className='text-4xl md:text-[50px] leading-tight font-medium mb-6'>
+                            Dr. Maya Reynolds
+                        </h2>
+                        <p className='text-sm md:text-base tracking-wide uppercase opacity-80'>
+                            SANTA MONICA, CALIFORNIA
+                        </p>
                         <div className='space-y-1 text-base mt-4'>
                             <p>
                                 <a
@@ -71,7 +70,7 @@ const Footer = () => {
             </div>
 
             {/* Bottom Footer Section */}
-            <div className='bg-[#E5E0DA]'>
+            <div className='bg-[#e4cebd]'>
                 <div className='container mx-auto px-6 md:px-8 lg:px-12 py-16'>
                     {/* Legal Links */}
                     <div className='flex flex-wrap justify-center gap-3 md:gap-4 text-[17px] mb-4'>
@@ -93,6 +92,9 @@ const Footer = () => {
                     </div>
 
                     {/* Credits */}
+                    <div className='text-center text-md mb-4'>
+                        <p>© {new Date().getFullYear()} Dr. Maya Reynolds. All Rights Reserved.</p>
+                    </div>
                     <div className='text-center text-md mb-4'>
                         <p>
                             Website Template Credits:{' '}
