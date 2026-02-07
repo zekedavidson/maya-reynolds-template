@@ -114,7 +114,8 @@ const Header = () => {
                     <Link
                         href="/our-office"
                         className="text-foreground hover:opacity-70 transition-opacity"
-                        style={{ fontSize: 'clamp(14px, 1.5vw + 8px, 21px)' }}
+                        style={{ fontSize: 'clamp(32px, 5vw + 20px, 48px)' }}
+                        onClick={() => setIsMenuOpen(false)}
                     >
                         Our Office
                     </Link>
