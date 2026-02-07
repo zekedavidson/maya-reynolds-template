@@ -67,7 +67,7 @@ const FAQSection = () => {
                                         {openIndex === index ? '−' : '+'}
                                     </span>
 
-                                    <span className='text-xl md:text-2xl lg:text-5xl font-medium text-foreground'>
+                                    <span className='text-xl md:text-2xl lg:text-4xl font-medium text-foreground'>
                                         {faq.question}
                                     </span>
 

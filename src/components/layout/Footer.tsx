@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className='w-full bg-background text-foreground'>
             {/* Main Footer Content */}
-            <div className='w-full px-6 md:px-16 py-16 md:py-17'>
+            <div className='border-t-2 w-full px-6 md:px-16 py-16 md:py-17'>
                 <div className='flex flex-col md:flex-row justify-between items-start gap-12'>
                     {/* Left Column: Branding & Contact */}
                     <div className='flex flex-col space-y-6'>
