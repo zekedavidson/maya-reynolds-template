@@ -12,8 +12,8 @@ const Footer = () => {
                         <h2 className='text-4xl md:text-[50px] leading-tight font-medium mb-6'>
                             Dr. Maya Reynolds
                         </h2>
-                        <p className='text-sm md:text-base tracking-wide uppercase opacity-80'>
-                            SANTA MONICA, CALIFORNIA
+                        <p className='text-sm md:text-base tracking-wide uppercase'>
+                            123 Street 45 W <br /> SANTA MONICA, CALIFORNIA <br /> CA 90401
                         </p>
                         <div className='space-y-1 text-base mt-4'>
                             <p>
@@ -49,11 +49,11 @@ const Footer = () => {
                         </div>
 
                         {/* Right Column: Navigation Links */}
-                        <div className='flex flex-col gap-4 items-start md:items-end pb-40'>
+                        <div className='flex flex-col gap-4 items-end text-right pb-40'>
                             <h3 className='text-4xl md:text-[50px] font-medium mb-2'>
                                 Find
                             </h3>
-                            <nav className='flex flex-col gap-2 text-base'>
+                            <nav className='flex flex-col gap-2 text-base items-end w-full'>
                                 <Link href="/" className='hover:underline w-fit text-[22px]'>
                                     <u>Home</u>
                                 </Link>
@@ -62,6 +62,9 @@ const Footer = () => {
                                 </Link>
                                 <Link href="/blog" className='hover:underline w-fit text-[22px]'>
                                     <u>Blog</u>
+                                </Link>
+                                <Link href="/our-office" className='hover:underline w-fit text-[22px]'>
+                                    <u>Our Office</u>
                                 </Link>
                             </nav>
                         </div>

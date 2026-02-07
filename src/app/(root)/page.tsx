@@ -31,11 +31,19 @@ export default function Home() {
 
                     {/* Right: Text content */}
                     <div className="flex flex-col gap-6 items-center text-center justify-center hero-offset-monitor relative pb-50">
-                        <h1
-                            className="hero-title-monitor font-medium leading-tight text-5xl md:text-6xl xl:text-7xl 2xl:text-[80px]"
-                        >
-                            Find Calm <br /> In The Chaos
-                        </h1>
+                        <div>
+                            <h1
+                                className="hero-title-monitor font-semibold text-5xl md:text-6xl xl:text-7xl 2xl:text-[80px]"
+                            >
+                                Find Calm
+                            </h1>
+                            <h1
+                                className="hero-title-monitor font-semibold text-5xl md:text-6xl xl:text-7xl 2xl:text-[80px] md:-mt-1"
+                            >
+                                In The Chaos
+                            </h1>
+                        </div>
+
 
                         <p className="text-xl font-medium">
                             Therapy for Adults in Santa Monica, California.

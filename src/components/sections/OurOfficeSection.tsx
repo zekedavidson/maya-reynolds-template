@@ -9,14 +9,12 @@ const OurOfficeSection = () => {
             <div className="pt-20 pb-20 px-6 md:px-12 lg:px-20 max-w-[1500px] mx-auto">
                 <RevealOnScroll>
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-[#36575C] mb-8 text-center">
-                        Our Office
+                        A Calm Space For Healing
                     </h1>
 
-                    <div className="max-w-6xl mx-auto text-center mb-16 md:mb-24">
+                    <div className="max-w-7xl mx-auto text-center mb-16 md:mb-24">
                         <p className="text-lg md:text-2xl text-[#36575C]/80 leading-relaxed font-medium">
-                            Our office in Santa Monica is designed to be a sanctuary from the outside world.
-                            It is a quiet, private space filled with natural light, soft textures, and a calming atmosphere
-                            to help you feel grounded and safe during your sessions.
+                            My office in Santa Monica is a quiet, private space designed to feel calm and grounding. With natural light and a comfortable, uncluttered environment, the space itself helps you feel at ease the moment you arrive. I offer both in-person therapy here and secure telehealth sessions for clients across California.
                         </p>
                     </div>
 
