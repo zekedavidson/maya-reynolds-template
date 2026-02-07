@@ -111,10 +111,17 @@ const Header = () => {
                     >
                         Contact
                     </Link>
+                    <Link
+                        href="/our-office"
+                        className="text-foreground hover:opacity-70 transition-opacity"
+                        style={{ fontSize: 'clamp(14px, 1.5vw + 8px, 21px)' }}
+                    >
+                        Our Office
+                    </Link>
                 </div>
             </div>
         </>
     )
 }
 
-export default Header
+export default Header   
