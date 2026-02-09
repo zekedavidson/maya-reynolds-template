@@ -49,11 +49,11 @@ const Footer = () => {
                         </div>
 
                         {/* Right Column: Navigation Links */}
-                        <div className='flex flex-col gap-4 items-end text-right pb-40'>
+                        <div className='flex flex-col gap-4 items-start md:items-end text-left md:text-right pb-40'>
                             <h3 className='text-4xl md:text-[50px] font-medium mb-2'>
                                 Find
                             </h3>
-                            <nav className='flex flex-col gap-2 text-base items-end w-full'>
+                            <nav className='flex flex-col gap-2 text-base items-start md:items-end w-full'>
                                 <Link href="/" className='hover:underline w-fit text-[22px]'>
                                     <u>Home</u>
                                 </Link>
